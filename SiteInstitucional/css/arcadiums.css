@@ -1,0 +1,9 @@
+.SessaoArcadium{
+    background: url(../imagens/sessaoArcadium/FundoArcadium.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    min-height: 90vh;
+}

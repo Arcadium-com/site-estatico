@@ -1,0 +1,81 @@
+/*MOBILE*/
+@media(max-width: 1459px){ 
+    .SessaoBoasVindas{
+        flex-direction: column-reverse;
+    }
+    .SessaoBoasVindas .DivIntroducao{
+        width: 100%;
+    }
+
+    .SessaoBoasVindas .DivTotemIlustracao{
+        width: 100%;
+    }
+
+    
+    .SessaoBoasVindas .DivTotemIlustracao img{
+        width: 100%;
+    }
+
+}
+
+/*DESKTOP*/
+@media(min-width: 1460px){
+    .SessaoBoasVindas .DivIntroducao{
+        width: 50%;
+    }
+    .SessaoBoasVindas .DivTotemIlustracao{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        overflow: hidden;
+    }
+    
+    .SessaoBoasVindas .DivTotemIlustracao img{
+        width: 80%;
+    }
+}
+
+/*PADRÃO*/
+.SessaoBoasVindas{
+    background: url(../imagens/sessaoBoasVindas/FundoBoasVindas.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    min-height: 90vh;
+}
+
+.SessaoBoasVindas .DivIntroducao{
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.SessaoBoasVindas .DivIntroducao .TituloSessao{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.SessaoBoasVindas .DivIntroducao .SubtituloSessao{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.SessaoBoasVindas .DivIntroducao .BotaoBoasVindas{
+    background-color: var(--Rosa);
+    border: none;
+    cursor: pointer;
+    font-size: 1.5em;
+    padding: 10px 30px;
+    border-radius: 1em;
+}
+
+.SessaoBoasVindas .DivTotemIlustracao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
