@@ -1,18 +1,18 @@
 /*MOBILE*/
 @media(max-width: 1459px){ 
-    .SessaoBoasVindas{
+    #SessaoBoasVindas{
         flex-direction: column-reverse;
     }
-    .SessaoBoasVindas .DivIntroducao{
+    #SessaoBoasVindas .DivIntroducao{
         width: 100%;
     }
 
-    .SessaoBoasVindas .DivTotemIlustracao{
+    #SessaoBoasVindas .DivTotemIlustracao{
         width: 100%;
     }
 
     
-    .SessaoBoasVindas .DivTotemIlustracao img{
+    #SessaoBoasVindas .DivTotemIlustracao img{
         width: 100%;
     }
 
@@ -20,23 +20,23 @@
 
 /*DESKTOP*/
 @media(min-width: 1460px){
-    .SessaoBoasVindas .DivIntroducao{
+    #SessaoBoasVindas .DivIntroducao{
         width: 50%;
     }
-    .SessaoBoasVindas .DivTotemIlustracao{
+    #SessaoBoasVindas .DivTotemIlustracao{
         display: flex;
         flex-direction: column;
         align-items: center;
         overflow: hidden;
     }
     
-    .SessaoBoasVindas .DivTotemIlustracao img{
+    #SessaoBoasVindas .DivTotemIlustracao img{
         width: 80%;
     }
 }
 
 /*PADRÃO*/
-.SessaoBoasVindas{
+#SessaoBoasVindas{
     background: url(../imagens/sessaoBoasVindas/FundoBoasVindas.png);
     background-size: cover;
     background-position: center;
@@ -46,26 +46,26 @@
     min-height: 90vh;
 }
 
-.SessaoBoasVindas .DivIntroducao{
+#SessaoBoasVindas .DivIntroducao{
     padding: 2em;
     display: flex;
     flex-direction: column;
     align-items: center; 
 }
 
-.SessaoBoasVindas .DivIntroducao .TituloSessao{
+#SessaoBoasVindas .DivIntroducao .TituloSessao{
     display: flex;
     flex-direction: column;
     text-align: center;
 }
 
-.SessaoBoasVindas .DivIntroducao .SubtituloSessao{
+#SessaoBoasVindas .DivIntroducao .SubtituloSessao{
     display: flex;
     flex-direction: column;
     text-align: center;
 }
 
-.SessaoBoasVindas .DivIntroducao .BotaoBoasVindas{
+#SessaoBoasVindas .DivIntroducao .BotaoBoasVindas{
     background-color: var(--Rosa);
     border: none;
     cursor: pointer;
@@ -74,7 +74,7 @@
     border-radius: 1em;
 }
 
-.SessaoBoasVindas .DivTotemIlustracao{
+#SessaoBoasVindas .DivTotemIlustracao{
     display: flex;
     flex-direction: column;
     align-items: center;

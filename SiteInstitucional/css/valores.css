@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
-.SessaoValores{
+#SessaoValores{
     background: url(../imagens/sessaoValores/FundoValores.png);
     background-size: cover;
     background-position: center;
@@ -13,16 +13,16 @@
     gap: 3em;
 }
 
-.SessaoValores .ListaValores{
+#SessaoValores .ListaValores{
     font-family: "Open Sans";
     color: #fff;
 }
 
-.SessaoValores .ListaValores .ItemLista{
+#SessaoValores .ListaValores .ItemLista{
     display: flex;
     align-items: center; 
 }
-.SessaoValores .ListaValores .ItemLista .IconeValor{
+#SessaoValores .ListaValores .ItemLista .IconeValor{
     min-width: 300px;
     max-width: 350px; 
     width: 100%;
@@ -30,12 +30,12 @@
 
 /*DESKTOP*/
 @media (min-width: 1460px) { 
-    .SessaoValores .ListaValores{
+    #SessaoValores .ListaValores{
         gap: 2em;
         width: 80%;
     }
 
-    .SessaoValores .ListaValores .ItemLista{
+    #SessaoValores .ListaValores .ItemLista{
         gap: 2em;
     }
         
@@ -46,18 +46,18 @@
 
 /*MOBILE*/
 @media(max-width: 1459px) {
-    .SessaoValores .ListaValores{
+    #SessaoValores .ListaValores{
         display: flex;
         flex-direction: column;
         gap: 10em;
     }
     
-    .SessaoValores .ListaValores .ItemLista{
+    #SessaoValores .ListaValores .ItemLista{
         flex-direction: column;
         text-align: justify;
     }
 
-    /* .SessaoValores .ListaValores .ItemLista .IconeValor{
+    /* #SessaoValores .ListaValores .ItemLista .IconeValor{
         
     } */
 

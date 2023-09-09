@@ -20,15 +20,14 @@
         </div>
         <span id="CabecalhoMenu" onclick="ExibirMenu()"><i class="fa-solid fa-bars fa-xl" style="color: var(--RoxoEscuro);"></i></span>
         <ul class="ListaHeader">
-            <a href="#" class="ItemLista ItemPgInicial st ag"><li>Pagina Inicial</li></a>
-            <a href="#" class="ItemLista st ag"><li>Arcadiums</li></a>
-            <a href="#" class="ItemLista st ag"><li>Valores</li></a>
-            <a href="#" class="ItemLista st ag"><li>Parcerias</li></a>
-            <a href="#" class="ItemLista st ag"><li>Produtos</li></a>
-            <a href="#" class="ItemLista st ag"><li>Contatos</li></a>
+            <a href="#SessaoBoasVindas" class="ItemLista ItemPgInicial st ag"><li>Pagina Inicial</li></a>
+            <a href="#SessaoArcadium" class="ItemLista st ag"><li>Arcadiums</li></a>
+            <a href="#SessaoValores" class="ItemLista st ag"><li>Valores</li></a>
+            <a href="#SessaoProdutos" class="ItemLista st ag"><li>Produtos</li></a>
+            <a href="#Rodape" class="ItemLista st ag"><li>Contatos</li></a>
         </ul>
     </header>
-    <section class="SessaoBoasVindas">
+    <section id="SessaoBoasVindas">
         <div class="DivIntroducao">
             <div class="ContainerTexto">
                 <h1 class="TituloSessao st ag">
@@ -44,10 +43,28 @@
         </div>
 
     </section>
-    <!--NAO FOI FEITO!!--><section class="SessaoArcadium">
-        <!--Parte da dani (2a pagina do design)-->
+    <section id="SessaoArcadium">
+        <h1 class="TituloSessao TituloRoxo ag st">ARCADIUM'S</h1>
+        <div class="Mural">
+            <div class="Usuarios">
+                <span onclick="UsuarioToggle(this)" value="0" class="bloco" id="u1"></span>
+                <span onclick="UsuarioToggle(this)" value="1" class="bloco" id="u2"></span>
+                <span onclick="UsuarioToggle(this)" value="2" class="bloco" id="u3"></span>
+                <span onclick="UsuarioToggle(this)" value="3" class="bloco" id="u4"></span>
+                <span onclick="UsuarioToggle(this)" value="4" class="bloco" id="u5"></span>
+                <span onclick="UsuarioToggle(this)" value="5" class="bloco" id="u6"></span>
+            </div>
+        </div>
+        <div class="PainelUsuario">
+            <img id="FotoPerfil" src="" alt="Foto de Perfil">
+            <div class="Descricao">
+                <h1 id="NomeCompleto">Usuario</h1>
+                <h3 id="Biografia"></h3>
+            </div>
+            <button onclick="UsuarioToggle(this)" value="0" class="st ag">Cancelar</button>
+        </div>
     </section>
-    <section class="SessaoValores">
+    <section id="SessaoValores">
         <h1 class="TituloSessao TituloRoxo ag st">VALORES</h1>
         <ul class="ListaValores">
             <li class="ItemLista">
@@ -64,10 +81,7 @@
             </li>
         </ul>
     </section>
-    <!--NAO FOI FEITO!!--><section class="SessaoParcerias">
-        <!-- não entendi como vai ser realizado-->
-    </section>
-    <section class="SessaoProdutos">
+    <section id="SessaoProdutos">
         <h1 class="TituloSessao TituloRoxo st ag">Produtos</h1>
         <div class="ContainerTexto ag">
             <h1 class="TituloSessao st ag">Foodie Kioske</h1>
@@ -76,7 +90,7 @@
         <div class="ContainerIlustracao">
             <img class="ImagemTotem" src="imagens/sessaoProdutos/totem2.svg" alt="">
         </div>
-        <footer class="Rodape">
+        <footer id="Rodape">
             <div class="Logo">
                 <p class="val Arcadium">ARCADIUM</p>
                 <p class="val Arcadium Reverso">ARCADIUM</p>

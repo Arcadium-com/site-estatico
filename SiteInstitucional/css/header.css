@@ -1,6 +1,7 @@
 body{
     margin-top: 10vh;
-    background-color: #000;
+    background-image: url(../imagens/sessaoBoasVindas/FundoBoasVindas.png);
+    background-size: contain;
 }
 
 /*PADRÃO*/
