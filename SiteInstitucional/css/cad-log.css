@@ -37,7 +37,7 @@ h1 {
 }
 
 main.Container {
-    background: black;
+    background: rgb(25, 22, 22);
     min-width: 20vh;
     min-height: 50vh;
     padding: 2rem;
@@ -50,7 +50,7 @@ main.Container {
 }
 
 main.ContainerLogin {
-    background: black;
+    background: rgb(25, 22, 22);
     min-width: 56vh;
     min-height: 50vh;
     padding: 2rem;
@@ -77,7 +77,7 @@ main h1::before {
     height: 4px;
     width: 80px;
     bottom: 3px;
-    left: 86px;
+    left: 76px;
     border-radius: 8px;
     background: linear-gradient(48deg, #B678E6, #D51D7F);
 }
