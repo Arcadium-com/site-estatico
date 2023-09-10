@@ -58,12 +58,7 @@ body{
         list-style: none;
         gap: 4em;
     }
-    .Cabecalho .ListaHeader .ItemPgInicial{
-        background-color: var(--RoxoEscuro);
-        padding: 10px 20px;
-        border-radius: 1em;
-    }
-
+    
     #CabecalhoMenu{
         display: none;
     }
