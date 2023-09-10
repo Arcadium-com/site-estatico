@@ -1,6 +1,6 @@
 @media (min-width: 1460px) { 
     #Rodape{
-        height: 40vh;
+        height: 22vh;
         grid-area: rodape;
         width: 100%;
         display: flex;
