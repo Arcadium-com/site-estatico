@@ -38,7 +38,20 @@ h1 {
 
 main.Container {
     background: black;
-    min-width: 420px;
+    min-width: 20vh;
+    min-height: 50vh;
+    padding: 2rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    box-shadow: 5px 5px 15px #d41172;
+    border-radius: 8px;
+    border: solid;
+    border-color: #D51D7F;
+}
+
+main.ContainerLogin {
+    background: black;
+    min-width: 56vh;
     min-height: 50vh;
     padding: 2rem;
     padding-top: 4rem;
