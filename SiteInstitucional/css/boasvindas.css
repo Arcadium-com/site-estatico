@@ -37,7 +37,7 @@
 
 /*PADRÃO*/
 #SessaoBoasVindas{
-    background: url(../imagens/sessaoBoasVindas/FundoBoasVindas.png);
+    background: url(../imagens/sessaoBoasVindas/FundoBoasVindas.svg);
     background-size: cover;
     background-position: center;
     display: flex;
