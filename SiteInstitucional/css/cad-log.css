@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
 @font-face{
     font-family:  'Arcade Gamer';
     src: url(../fontes/Arcade\ Gamer.otf)
@@ -7,7 +9,6 @@
     src: url(../fontes/VAL.otf)
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
 
 * {
     margin: 0;
@@ -18,17 +19,16 @@
 
 body {
     min-height: 100vh;
-    min-width: 100vw;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    font-family:  'VAL', sans-serif;
+    justify-content: space-around;
+    font-family: 'VAL', sans-serif;
 }
 
 #ImagemCadLog {
     position: relative;
     left: 130px;
-    
 }
 
 h1 {

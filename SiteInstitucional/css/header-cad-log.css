@@ -68,16 +68,6 @@ body{
     #CabecalhoMenu{
         display: none;
     }
-
-    
-    #BorraoCima{
-        width: 75%;
-        position: absolute;
-        z-index: -999;
-        top: -350px;
-        left: -100px;
-        transform: rotateX(180deg);
-    }
 }
 /*MOBILE*/
 @media(max-width: 1459px){
@@ -105,12 +95,6 @@ body{
         background-color: var(--RoxoClaro);
         display: none;
     }
-
-    #BorraoCima{
-        width: 100%;
-        position: absolute;
-        z-index: -999;
-    }    
 }
 
 

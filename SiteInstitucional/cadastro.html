@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/padroes.css">
     <link rel="stylesheet" href="css/cad-log.css">
     <link rel="stylesheet" href="css/header-cad-log.css">
+    <link rel="stylesheet" href="css/rodape.css">
     <script src="https://kit.fontawesome.com/7ac0278b37.js" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/cf6fa412bd.js" crossorigin="anonymous"></script>
 </head>
@@ -30,23 +31,47 @@
     </header>
 
     <!-- FORMULÁRIO -->
-<main class="Container">
-    <h1 id="Cadastro">Cadastro</h1>
-    <form action="">
-        <div class="EstiloInputs">
-            <input type="text" id="Email"
-                placeholder="E-mail" required>
-            <div class="Sublinhado"></div>
+    <main class="Container">
+        <h1 id="Cadastro">Cadastro</h1>
+        <form action="">
+            <div class="EstiloInputs">
+                <input type="text" id="Email"
+                    placeholder="E-mail" required>
+                <div class="Sublinhado"></div>
+            </div>
+            <div class="EstiloInputs">
+                <input type="password" id="Senha"
+                    placeholder="Senha" required>
+                <div class="Sublinhado"></div>
+            </div>
+            <a href="./login.html"><input type="submit" value="Cadastrar"></a>
+            <h6>Já possui login?  <a href="./login.html">Entrar</a></h6>
+        </form>
+    </main>
+    <footer id="Rodape">
+        <div class="Logo">
+            <a href="./index.html">
+                <p class="val Arcadium">ARCADIUM</p>
+                <p class="val Arcadium Reverso">ARCADIUM</p>
+            </a>
         </div>
-        <div class="EstiloInputs">
-            <input type="password" id="Senha"
-                placeholder="Senha" required>
-            <div class="Sublinhado"></div>
-        </div>
-        <a href="./login.html"><input type="submit" value="Cadastrar"></a>
-        <h6>Já possui login?  <a href="./login.html">Entrar</a></h6>
-    </form>
-</main>
-
+        <ul class="ListaRedeSocial">
+            <li class="ItemLista">
+                <i class="fa-brands fa-instagram fa-2xl" style="color: var(--RoxoEscuro);"></i>
+                <p class="st ag">@arcadium.tech</p></li>
+            <li class="ItemLista">
+                <i class="fa-brands fa-facebook fa-2xl" style="color: var(--RoxoEscuro);"></i>
+                <p class="st ag">arcadium.tech</p>
+            </li>
+            <li class="ItemLista">
+                <i class="fa-brands fa-github fa-2xl" style="color: var(--RoxoEscuro);"></i>
+                <p class="st ag">arcadiumtech</p>
+            </li>
+            <li class="ItemLista">
+                <i class="fa-solid fa-envelope fa-2xl" style="color: var(--RoxoEscuro);"></i>
+                <p class="st ag">arcadiumtech@arcadium.tech</p>
+            </li>
+        </ul>
+    </footer>
 </body>
 </html>

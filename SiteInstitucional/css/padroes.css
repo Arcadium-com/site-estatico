@@ -26,6 +26,10 @@ html {
     box-sizing: border-box;
 }
 
+body{
+    margin-top: 10vh !important;
+}
+
 .ag{
     font-family: "Arcade Gamer";
     color: #fff;
