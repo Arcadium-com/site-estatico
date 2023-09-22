@@ -1,5 +1,5 @@
 /*MOBILE*/
-@media(max-width: 1459px){ 
+@media(max-width: 1199px){ 
     #SessaoBoasVindas{
         flex-direction: column-reverse;
     }
@@ -19,7 +19,7 @@
 }
 
 /*DESKTOP*/
-@media(min-width: 1460px){
+@media(min-width: 1200px){
     #SessaoBoasVindas .DivIntroducao{
         width: 50%;
     }

@@ -65,6 +65,14 @@ body{
     padding: 10px 40px;
 }
 
+.CadLogBg{
+    background-image: url(../imagens/sessaoCadLog/FundoCadLog.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
 a{
     text-decoration: none;
 }

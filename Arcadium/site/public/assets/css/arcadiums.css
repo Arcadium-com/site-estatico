@@ -47,7 +47,7 @@
 }
 
 /*DESKTOP*/
-@media (min-width: 1460px) { 
+@media (min-width: 1200px) { 
     #SessaoArcadium .Mural{
         height: 80%;
         width: 500px;
@@ -60,7 +60,7 @@
 }
 
 /*MOBILE*/
-@media (max-width: 1459px){
+@media (max-width: 1199px){
     #SessaoArcadium{
         gap: 2em;
         min-height: 100vh;

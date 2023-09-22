@@ -1,6 +1,6 @@
 body{
     margin-top: 10vh;
-    background-color: #8A1DBD;
+    background-color: #000;
 }
 
 /*PADRÃO*/
@@ -47,7 +47,7 @@ body{
 }
 
 /*DESKTOP*/
-@media (min-width: 1460px) { 
+@media (min-width: 1200px) { 
     .Cabecalho{
         justify-content: space-around;
     }
@@ -62,19 +62,9 @@ body{
     #CabecalhoMenu{
         display: none;
     }
-
-    
-    #BorraoCima{
-        width: 75%;
-        position: absolute;
-        z-index: -999;
-        top: -350px;
-        left: -100px;
-        transform: rotateX(180deg);
-    }
 }
 /*MOBILE*/
-@media(max-width: 1459px){
+@media(max-width: 1199px){
     .Cabecalho{
         justify-content: space-between;
     }
@@ -92,12 +82,6 @@ body{
         background-color: var(--RoxoClaro);
         display: none;
     }
-
-    #BorraoCima{
-        width: 100%;
-        position: absolute;
-        z-index: -999;
-    }    
 }
 
 

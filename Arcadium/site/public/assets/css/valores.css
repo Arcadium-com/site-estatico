@@ -29,7 +29,7 @@
 }
 
 /*DESKTOP*/
-@media (min-width: 1460px) { 
+@media (min-width: 1200px) { 
     #SessaoValores .ListaValores{
         gap: 2em;
         width: 80%;
@@ -45,7 +45,7 @@
 }
 
 /*MOBILE*/
-@media(max-width: 1459px) {
+@media(max-width: 1199px) {
     #SessaoValores .ListaValores{
         display: flex;
         flex-direction: column;
