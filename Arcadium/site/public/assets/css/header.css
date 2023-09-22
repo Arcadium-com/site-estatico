@@ -1,0 +1,104 @@
+body{
+    margin-top: 10vh;
+    background-color: #8A1DBD;
+}
+
+/*PADRÃO*/
+.Cabecalho{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    height: 10vh;
+    padding: 30px;
+    background-color: #ffffff2c;
+}
+
+.Logo{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+@keyframes LogoPulando{
+    0%{
+        transform: translateY(10%);
+    }100%{
+        transform: translateY(-10%);
+    }
+}
+
+.Logo:hover{
+    transition: .5s;
+    /*transform: rotate(180deg);*/
+    animation: LogoPulando .5s ease-out infinite alternate-reverse;
+}
+
+.Logo .Arcadium{
+    color: var(--RoxoEscuro);
+    font-size: 2em;
+    text-shadow: .5px .5px 1px #000;
+}
+
+.Logo .Reverso{
+    color: var(--RoxoClaro) !important;
+    transform: rotateX(180deg) translateX(10%);
+}
+
+/*DESKTOP*/
+@media (min-width: 1460px) { 
+    .Cabecalho{
+        justify-content: space-around;
+    }
+
+    .Cabecalho .ListaHeader{
+        display: flex;
+        align-items: center;
+        list-style: none;
+        gap: 4em;
+    }
+    
+    #CabecalhoMenu{
+        display: none;
+    }
+
+    
+    #BorraoCima{
+        width: 75%;
+        position: absolute;
+        z-index: -999;
+        top: -350px;
+        left: -100px;
+        transform: rotateX(180deg);
+    }
+}
+/*MOBILE*/
+@media(max-width: 1459px){
+    .Cabecalho{
+        justify-content: space-between;
+    }
+
+    .Cabecalho .ListaHeader{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 10vh;
+        right: 0;
+    }
+
+    .Cabecalho .ListaHeader .ItemLista{
+        padding: 10px;
+        background-color: var(--RoxoClaro);
+        display: none;
+    }
+
+    #BorraoCima{
+        width: 100%;
+        position: absolute;
+        z-index: -999;
+    }    
+}
+
+
+
