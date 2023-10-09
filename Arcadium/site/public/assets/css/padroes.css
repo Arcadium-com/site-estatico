@@ -3,10 +3,6 @@ html {
   }
 
 @font-face{
-    font-family:  'Arcade Gamer';
-    src: url(../fontes/Arcade\ Gamer.otf)
-}
-@font-face{
     font-family:  'VAL';
     src: url(../fontes/VAL.otf)
 }
@@ -24,19 +20,22 @@ html {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
 body{
     margin-top: 10vh !important;
+    font-family: 'Poppins', sans-serif;
 }
 
 .ag{
-    font-family: "Arcade Gamer";
+    font-family: 'Poppins', sans-serif;
     color: #fff;
 }
 
 .val{
     font-family: "VAL";
+    color: #fff;
 }
 
 .st{ /*sombra-titulo*/

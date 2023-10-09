@@ -1,6 +1,6 @@
 body{
-    margin-top: 10vh;
-    background-color: #000;
+    margin-top: 10vh;    
+    background-color: #1e022d;
 }
 
 /*PADRÃO*/
@@ -11,7 +11,8 @@ body{
     display: flex;
     height: 10vh;
     padding: 30px;
-    background-color: #ffffff2c;
+    background-color: #1e022d;
+    opacity: 0.8;
 }
 
 .Logo{
