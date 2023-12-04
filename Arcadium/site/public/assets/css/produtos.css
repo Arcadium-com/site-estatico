@@ -9,6 +9,15 @@
     margin: auto;
 }
 
+.BtProjeto {
+    color: white;
+    background-color: #e707a0;
+    border: none;
+    border-radius: 30px;
+    width: 100px;
+    height: 40px;
+}
+
 /*DESKTOP*/
 @media (min-width: 1200px) { 
     #SessaoProdutos{
@@ -37,6 +46,7 @@
     #SessaoProdutos .ContainerProdutos .ContainerIlustracao img{
         height: 75%;
     }
+
 }
 /*MOBILE*/
 @media (max-width: 1119px) {
